@@ -16,20 +16,23 @@ body {
 #wrapper {
   min-height: 3000px;
 }
-
-a {
-  text-decoration: none;
-  color: #2177d4;
+/****************** RESPONSIVE BODY ******************/
+.container{
+  max-width: 960px;
+}
+/****************** FULL WIDTH DIVISOR ******************/
+.section{
+  padding: 60px 0;
+  margin-bottom: 30px;
+}
+/****************** FULL WIDTH IMAGE ******************/
+.imagespread{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
 }
 
-a:hover {
-  color: #d43921;
-}
-
-img {
-  max-width: 100%;
-}
-
+/****************** NAVBAR ******************/
 .nav {
   background: #222222;
 }
@@ -52,12 +55,22 @@ img {
   background-color: #333333;
 }
 
+/****************** FONT STYLING ******************/
+a {
+  text-decoration: none;
+  color: #2177d4;
+}
+
+a:hover {
+  color: #d43921;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/****************** BACKGROUND IMAGES ******************/
 #headingsection{
   background-image: url(../images/plazadeespanawide.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-
-  min-height: 750px;
-
 }
