@@ -1,0 +1,63 @@
+/*
+Font white: #2177d4
+Font highlight: #d43921
+
+
+
+
+*/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  min-height: 3000px;
+}
+
+a {
+  text-decoration: none;
+  color: #2177d4;
+}
+
+a:hover {
+  color: #d43921;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav {
+  background: #222222;
+}
+
+.nav_section>ul {
+  margin: 0;
+}
+
+.nav_links>li {
+  display: inline-block;
+}
+
+.nav_links a {
+  line-height: 1.5em;
+  padding: 15px 20px;
+  color: #eee;
+  display: block;
+}
+.nav_links a:hover{
+  background-color: #333333;
+}
+
+#headingsection{
+  background-image: url(../images/plazadeespanawide.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+
+  min-height: 750px;
+
+}
