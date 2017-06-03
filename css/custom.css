@@ -63,7 +63,9 @@ body {
 .nav_section>ul {
   margin: 0;
 }
-
+.nav_links{
+  padding:0;
+}
 .nav_links>li {
   display: inline-block;
 }
