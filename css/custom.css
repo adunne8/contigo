@@ -7,32 +7,61 @@ Font highlight: #d43921
 
 */
 
+html,body {
+    height:100%;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #wrapper {
   min-height: 3000px;
 }
+
+
 /****************** RESPONSIVE BODY ******************/
-.container{
-  max-width: 960px;
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
 }
+
+
 /****************** FULL WIDTH DIVISOR ******************/
-.section{
+
+.section {
   padding: 60px 0;
   margin-bottom: 30px;
 }
+
+
 /****************** FULL WIDTH IMAGE ******************/
-.imagespread{
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
+
+.imagespread {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+.banner {
+  background-color: rgba(85, 85, 85, .75);
+  padding: 15px;
+  color: #eee;
+  top: 50%;
+  position: relative;
+
+}
+
+.banner h1, .banner h2 {
+  font-family: 'Barrio', cursive;
+}
+
+
 /****************** NAVBAR ******************/
+
 .nav {
   background: #222222;
 }
@@ -51,11 +80,14 @@ body {
   color: #eee;
   display: block;
 }
-.nav_links a:hover{
+
+.nav_links a:hover {
   background-color: #333333;
 }
 
+
 /****************** FONT STYLING ******************/
+
 a {
   text-decoration: none;
   color: #2177d4;
@@ -71,30 +103,43 @@ img {
 
 
 /****************** BACKGROUND IMAGES ******************/
-#headingsection{
+
+#headingsection {
   background-image: url(../images/plazadeespanawide.jpg);
 }
 
 
+/****************** RESPONSIVE CODE ******************/
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-  body{
-    font-size: 20px;
+
+@media only screen and (min-width: 480px) {
+  body {
+
   }
 }
 
+
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  #headingsection{
+    min-height: 500px;
+  }
 
 }
+
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
 
-}
+@media only screen and (min-width: 992px) {}
+
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}
