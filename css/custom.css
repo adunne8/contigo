@@ -21,6 +21,7 @@ body {
 .container {
   padding: 15px;
   margin: 0 auto;
+
 }
 
 
@@ -92,7 +93,9 @@ a {
 a:hover {
   color: #d43921;
 }
-
+h1,h2{
+  color: #e0ab0e;
+}
 img {
   max-width: 100%;
 }
@@ -102,6 +105,10 @@ img {
 
 #headingsection {
   background-image: url(../images/plazadeespanawide.jpg);
+}
+
+#classroomsection{
+  background: #2183bd;
 }
 
 
