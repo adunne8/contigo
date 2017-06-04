@@ -84,6 +84,12 @@ body {
 }
 
 
+
+footer{
+  background: #222222;
+  border-top: 2px solid #e0ab0e;
+}
+
 /****************** NAVBAR ******************/
 
 .nav {
