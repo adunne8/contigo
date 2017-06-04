@@ -33,6 +33,35 @@ body {
 }
 
 
+
+/****************** PANEL STYLING ******************/
+
+.panels{
+  margin-top: 120px;
+
+}
+.panel{
+  background-color: #f4f4f4;
+  padding: 15px;
+  text-align: center;
+  margin: 15px;
+}
+
+
+
+.panel_image{
+  /*transform: translateY(-50%);*/
+  margin-top: -80px;
+  border-radius: 50%;
+  max-width: 50%;
+}
+.panel_heading{
+  margin-top: -80px;
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+
 /****************** FULL WIDTH IMAGE ******************/
 
 .imagespread {
