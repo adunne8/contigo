@@ -14,53 +14,102 @@ body {
 }
 
 
-
-
 /****************** RESPONSIVE BODY ******************/
 
 .container {
   padding: 0 15px;
   margin: 0 auto;
-
 }
 
 
 /****************** FULL WIDTH DIVISOR ******************/
 
 .section {
-  padding: 60px 0;
-  margin-bottom: 30px;
+  padding: 30px 0;
 }
-
+.section.imagespread{
+  padding: 60px 0;
+}
 
 
 /****************** PANEL STYLING ******************/
 
-.panels{
+.panels {
   margin-top: 120px;
-
 }
-.panel{
+
+.panel {
   background-color: #f4f4f4;
   padding: 15px;
   text-align: center;
   margin: 15px;
 }
 
-
-
-.panel_image{
+.panel_image {
   /*transform: translateY(-50%);*/
   margin-top: -80px;
   border-radius: 50%;
   max-width: 50%;
 }
-.panel_heading{
+
+.panel_heading {
   margin-top: -80px;
   border-radius: 50%;
   max-width: 50%;
 }
 
+img {
+  max-width: 100%;
+}
+
+
+
+/****************** FORM ELEMENTS ******************/
+.form-section{
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+label{
+  font-weight: 700;
+  margin-bottom:5px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.form-input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/****************** BUTTON ELEMENTS ******************/
+.button{
+  /*SIZE*/
+  font-size: 16px;
+  padding: 10px 16px;
+  margin: 15px 0;
+
+  /*GENERIC SETTING*/
+  background: none;
+  cursor: pointer;
+  border-radius: 3px;
+  display: inline-block;
+
+  border: 1px solid black;
+  transition: all .25s;
+}
+.button-solid{
+  color: #fff;
+  border: 0;
+}
+.background-orange{
+  background-color: #e0ab0e;
+}
 
 /****************** FULL WIDTH IMAGE ******************/
 
@@ -76,32 +125,46 @@ body {
   color: #eee;
   top: 50%;
   position: relative;
-
-}
-
-.banner h1, .banner h2 {
-  font-family: 'Barrio', cursive;
 }
 
 
+/****************** FOOTER ******************/
 
-footer{
+footer {
   background: #222222;
-  border-top: 2px solid #e0ab0e;
+  border-top: 3px solid #e0ab0e;
+  color: #eee;
+  padding-bottom: 15px;
 }
+
+
+/****************** LOGO STYLING ******************/
+.logocontainer{
+  background: #222222;
+}
+.logo{
+  margin: auto;
+  padding: 5px;
+  max-width: 50%;
+  display: block;
+}
+
 
 /****************** NAVBAR ******************/
 
 .nav {
   background: #222222;
+  border-bottom: 3px solid #e0ab0e;
 }
 
 .nav_section>ul {
   margin: 0;
 }
-.nav_links{
-  padding:0;
+
+.nav_links {
+  padding: 0;
 }
+
 .nav_links>li {
   display: inline-block;
 }
@@ -128,14 +191,17 @@ a {
 a:hover {
   color: #e0ab0e;
 }
-a:active{
+
+a:active {
   color: #e0ab0e;
 }
-h1,h2{
+
+h1, h2 {
   color: #e0ab0e;
 }
-img {
-  max-width: 100%;
+
+.banner h1, .banner h2 {
+  font-family: 'Barrio', cursive;
 }
 
 
@@ -145,7 +211,7 @@ img {
   background-image: url(../images/plazadeespanawide.jpg);
 }
 
-#classroomsection{
+#classroomsection {
   background: #2183bd;
 }
 
@@ -156,9 +222,7 @@ img {
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {
-  body {
-
-  }
+  body {}
 }
 
 
@@ -168,11 +232,12 @@ img {
   body {
     font-size: 16px;
   }
-
-  #headingsection{
+  #headingsection {
     min-height: 500px;
   }
-
+  .container{
+    max-width: 600px;
+  }
 }
 
 
