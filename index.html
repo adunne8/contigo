@@ -2,14 +2,38 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/custom.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to Contigo Language School</title>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <title>Contigo language School</title>
   <meta name="description" content="Spanish lessions for all levels in for Portmarnock and surrounding areas">
   <meta name="keywords" content="Spanish, Portmarnock Lessons, Community School, Leaving Cert, Leaving Certificate, Higher, Ordinary, Aural, Aurals, Adult Education">
+  <meta name="author" content="Andrew Dunne">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+
+
+
 </head>
 
 <body>
@@ -69,24 +93,26 @@
         <div class="3-col">
           <p>Developed by Andrew Dunne</p>
         </div>
-        <div class="3-col">
-          <form>
-            <h2>Contact Us</h2>
-            <div class="form-section">
-              <label for="email">Name:</label>
-              <input type="text" class="form-input" id="name" placeholder="Your Name">
+
+
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleRecipientInput">Your name:</label>
+              <input class="u-full-width" type="text" placeholder="Name" id="nameinput">
             </div>
-            <div class="form-section">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-input" id="email" placeholder="Email Address">
+
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email:</label>
+              <input class="u-full-width" type="email" placeholder="name@email.com" id="emailinput">
             </div>
-            <div class="form-section">
-              <label for="pwd">Your message:</label>
-              <textarea rows="4" class="form-input" id="message" placeholder="Enter message here"></textarea>
-            </div>
-            <button type="button" class="button button-solid background-orange">Submit</button>
-          </form>
-        </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Your message ..." id="messageinput"></textarea>
+          <input class="button-primary" type="submit" value="Submit">
+        </form>
+
+
 
       </div>
     </footer>

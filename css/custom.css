@@ -65,25 +65,8 @@ img {
 
 
 /****************** FORM ELEMENTS ******************/
-.form-section{
-  box-sizing: border-box;
-  margin-bottom: 15px;
-}
-
-label{
-  font-weight: 700;
-  margin-bottom:5px;
-  max-width: 100%;
-  display: inline-block;
-}
-
-.form-input{
-  width: 100%;
-  padding: 5px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+input, textarea{
+  color: #222222;
 }
 
 
@@ -167,6 +150,7 @@ footer {
 
 .nav_links>li {
   display: inline-block;
+  margin: 0;
 }
 
 .nav_links a {
