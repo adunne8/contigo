@@ -16,10 +16,6 @@ body {
 
 /****************** RESPONSIVE BODY ******************/
 
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 
 /****************** FULL WIDTH DIVISOR ******************/
@@ -235,9 +231,7 @@ h1, h2 {
   #headingsection {
     min-height: 500px;
   }
-  .container{
-    max-width: 600px;
-  }
+
 }
 
 
