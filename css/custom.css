@@ -19,7 +19,7 @@ body {
 /****************** RESPONSIVE BODY ******************/
 
 .container {
-  padding: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 
 }
@@ -91,7 +91,10 @@ a {
 }
 
 a:hover {
-  color: #d43921;
+  color: #e0ab0e;
+}
+a:active{
+  color: #e0ab0e;
 }
 h1,h2{
   color: #e0ab0e;
