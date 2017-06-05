@@ -6,20 +6,19 @@ Font highlight: #d43921
 
 
 */
-
+html{
+  font-size: 16px;
+}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
+
+
 }
 
 
 /****************** RESPONSIVE BODY ******************/
-
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 
 /****************** FULL WIDTH DIVISOR ******************/
@@ -27,7 +26,8 @@ body {
 .section {
   padding: 30px 0;
 }
-.section.imagespread{
+
+.section.imagespread {
   padding: 60px 0;
 }
 
@@ -41,12 +41,11 @@ body {
 .panel {
   background-color: #f4f4f4;
   padding: 15px;
-  text-align: center;
   margin: 15px;
+  text-align: center;
 }
 
 .panel_image {
-  /*transform: translateY(-50%);*/
   margin-top: -80px;
   border-radius: 50%;
   max-width: 50%;
@@ -63,36 +62,38 @@ img {
 }
 
 
-
 /****************** FORM ELEMENTS ******************/
-input, textarea{
+
+input, textarea {
   color: #222222;
 }
 
 
 /****************** BUTTON ELEMENTS ******************/
-.button{
+
+.button {
   /*SIZE*/
   font-size: 16px;
   padding: 10px 16px;
   margin: 15px 0;
-
   /*GENERIC SETTING*/
   background: none;
   cursor: pointer;
   border-radius: 3px;
   display: inline-block;
-
   border: 1px solid black;
   transition: all .25s;
 }
-.button-solid{
+
+.button-solid {
   color: #fff;
   border: 0;
 }
-.background-orange{
+
+.background-orange {
   background-color: #e0ab0e;
 }
+
 
 /****************** FULL WIDTH IMAGE ******************/
 
@@ -117,15 +118,24 @@ footer {
   background: #222222;
   border-top: 3px solid #e0ab0e;
   color: #eee;
-  padding-bottom: 15px;
+  padding: 15px 0;
+}
+
+
+/*Copywrite detail*/
+
+.baseline {
+  text-align: center;
 }
 
 
 /****************** LOGO STYLING ******************/
-.logocontainer{
+
+.logocontainer {
   background: #222222;
 }
-.logo{
+
+.logo {
   margin: auto;
   padding: 5px;
   max-width: 50%;
@@ -200,36 +210,80 @@ h1, h2 {
 }
 
 
+/****************** CARD CODE ******************/
+
+.card {
+  position: relative;
+  height: 200px;
+  transition: all 1s;
+}
+
+.card_title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: rgba(224, 171, 14, .75);
+  color: #eee;
+  height: 2em;
+  transition: all .5s;
+}
+
+.card:hover .card_title {
+  height: 100%;
+}
+
+.card_title h3 {
+  padding: .5rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card_title p {
+  padding: .5rem;
+  margin: 0;
+  opacity: 1;
+}
+
+.card_test {
+  height: 50px;
+  transition: all 1s;
+}
+
+.card_test:hover {
+  height: 500px;
+}
+
+
 /****************** RESPONSIVE CODE ******************/
 
 
-/* Extra Small Devices, Phones */
+/* Larger than mobile */
 
-@media only screen and (min-width: 480px) {
-  body {}
+@media (min-width: 400px) {}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+
+@media (min-width: 550px) {}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  html{
+    font-size: 10px;
+  }
+
 }
 
 
-/* Small Devices, Tablets */
+/* Larger than desktop */
 
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-  #headingsection {
-    min-height: 500px;
-  }
-  .container{
-    max-width: 600px;
-  }
-}
+@media (min-width: 1000px) {}
 
 
-/* Medium Devices, Desktops */
+/* Larger than Desktop HD */
 
-@media only screen and (min-width: 992px) {}
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {}
+@media (min-width: 1200px) {}
