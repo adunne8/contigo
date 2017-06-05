@@ -6,13 +6,11 @@ Font highlight: #d43921
 
 
 */
-html{
-  font-size: 16px;
-}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+
 
 
 }
@@ -73,7 +71,7 @@ input, textarea {
 
 .button {
   /*SIZE*/
-  font-size: 16px;
+  /*font-size: 16px;*/
   padding: 10px 16px;
   margin: 15px 0;
   /*GENERIC SETTING*/
@@ -216,6 +214,7 @@ h1, h2 {
   position: relative;
   height: 200px;
   transition: all 1s;
+  overflow: hidden;
 }
 
 .card_title {
@@ -223,7 +222,7 @@ h1, h2 {
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  overflow: hidden;
+
   background: rgba(224, 171, 14, .75);
   color: #eee;
   height: 2em;
@@ -237,7 +236,8 @@ h1, h2 {
 .card_title h3 {
   padding: .5rem;
   margin: 0;
-  font-size: 1rem;
+  font-size: 2rem;
+
 }
 
 .card_title p {
@@ -272,9 +272,7 @@ h1, h2 {
 /* Larger than tablet */
 
 @media (min-width: 750px) {
-  html{
-    font-size: 10px;
-  }
+
 
 }
 
