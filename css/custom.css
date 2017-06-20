@@ -16,7 +16,15 @@ body {
 }
 
 
+/****************** SKELETON OVERRIDE ******************/
+.one-third:nth-child(3n+1){
+  margin-left: 0;
+}
+
+
+
 /****************** RESPONSIVE BODY ******************/
+
 
 
 /****************** FULL WIDTH DIVISOR ******************/
@@ -215,6 +223,7 @@ h1, h2 {
   height: 200px;
   transition: all 1s;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .card_title {
