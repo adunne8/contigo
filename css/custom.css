@@ -213,7 +213,7 @@ h1, h2 {
 /****************** BACKGROUND IMAGES ******************/
 
 #headingsection {
-  background-image: url(../images/plazadeespanawide.jpg);
+  background-image: url(../images/main.jpg);
 }
 
 #classroomsection {
@@ -286,7 +286,9 @@ h1, h2 {
 /* Larger than tablet */
 
 @media (min-width: 750px) {
-
+  .section.imagespread{
+    padding: 120px;
+  }
 
 }
 
