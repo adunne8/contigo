@@ -210,7 +210,7 @@ a:active {
   color: #e0ab0e;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #e0ab0e;
 }
 
@@ -280,6 +280,10 @@ h1, h2 {
 .tile{
   background-color: #f4f4f4;
 }
+.tile_text{
+    padding: 15px;
+  }
+
 
 
 
