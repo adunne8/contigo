@@ -2,14 +2,39 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/custom.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome to Contigo Language School</title>
+
+  <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <title>Contigo language School - About</title>
   <meta name="description" content="Spanish lessions for all levels in for Portmarnock and surrounding areas">
   <meta name="keywords" content="Spanish, Portmarnock Lessons, Community School, Leaving Cert, Leaving Certificate, Higher, Ordinary, Aural, Aurals, Adult Education">
+  <meta name="author" content="Andrew Dunne">
+
+  <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Barrio|Roboto:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+
+  <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+
+
+
+
 </head>
 
 <body>
@@ -17,20 +42,27 @@
 
 
 
-    <nav class="nav nav-header nav-fixed">
-      <div class="container">
-        <div class="nav_section">
-          <ul class="nav_links">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-          </ul>
-        </div>
+    <header>
+      <div class="logocontainer">
+        <img class="logo" src="images/contigologosmall.png" alt="Contigo Logo">
       </div>
 
-    </nav>
-  </div>
+      <nav class="nav nav-header nav-fixed">
+        <div class="container">
+          <div class="nav_section">
+            <ul class="nav_links">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+            </ul>
+          </div>
+        </div>
 
-  <section>
+      </nav>
+    </header>
+
+
+  <section class="section">
     <div class="container">
       <h1>About us</h1>
       <p>We are Claire Duque Killeen and Maria Asensio Soler, both native Spanish speakers , Claire from Puerto Ordaz, Venezuela and Maria from Barcelona, Spain. We are both long term residents of Portmarnock.</p>
@@ -39,8 +71,8 @@
 
 
       <div class="panels">
-        <div class="col-3">
-          <div class="panel">
+        <div class="one-half column">
+          <div class="panel shadow-1">
 
             <img class="panel_image" src="http://placehold.it/200x200">
 
@@ -60,8 +92,8 @@
 
 
         <div class="panels">
-          <div class="col-3">
-            <div class="panel">
+          <div class="one-half column">
+            <div class="panel shadow-1">
 
               <img class="panel_image" src="http://placehold.it/200x200">
 
@@ -85,25 +117,50 @@
 
   <footer>
     <div class="container">
-      <div class="3-col">
-        <p>Developed by Andrew Dunne</p>
+      <div class="row">
+
+        <div class="four columns">
+          <h3>Locations</h3>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1dLukjBEwdUqA6rYZtjeNf56aFu4" width="100%" height="280"></iframe>
+        </div>
+
+        <div class="four columns">
+          <h3>Contact Us</h3>
+
+          <p><span class="contact_heading">Email: </span><span class="contact_detail"><a href="mailto:contigo@gmail.com?" target="_top">contigo@gmail.com</a></span></p>
+          <p><span class="contact_heading">Phone: </span><span class="contact_detail"><a href="tel:012345678">01 234 5678</a></span></p>
+          <p><span class="contact_heading">Mail: </span><span class="contact_detail">Address</span></p>
+        </div>
+
+        <div class="four columns">
+          <h3>Send A Message</h3>
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleRecipientInput">Your name:</label>
+                <input class="u-full-width" type="text" placeholder="Name" id="nameinput">
+              </div>
+
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email:</label>
+                <input class="u-full-width" type="email" placeholder="name@email.com" id="emailinput">
+              </div>
+            </div>
+
+
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="Your message ..." id="messageinput"></textarea>
+            <input class="button-primary" type="submit" value="Submit">
+          </form>
+
+
+
+        </div>
       </div>
-      <div class="3-col">
-        <form>
-          <h2>Contact Us</h2>
-          <div class="form-section">
-            <label for="email">Email address:</label>
-            <input type="email" class="form-input" id="email" placeholder="Email Address">
-          </div>
-          <div class="form-section">
-            <label for="pwd">Your message:</label>
-            <textarea class="form-input" placeholder="Enter message here"></textarea>
-          </div>
-          <button type="button" class="button button-solid background-orange">Submit</button>
-        </form>
+      <div class="baseline">
+        <p>&copy; <span class="copydate"></span> Andrew Dunne</p>
       </div>
 
-    </div>
   </footer>
 
 </body>
