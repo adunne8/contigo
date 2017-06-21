@@ -42,6 +42,7 @@ body {
 
 .panels {
   margin-top: 120px;
+
 }
 
 .panel {
@@ -49,6 +50,8 @@ body {
   padding: 15px;
   margin: 15px;
   text-align: center;
+  min-height: 600px;
+
 }
 
 .panel_image {
@@ -144,7 +147,8 @@ footer {
 .logo {
   margin: auto;
   padding: 5px;
-  max-width: 50%;
+  width: auto;
+  height: 70px;
   display: block;
 }
 
@@ -155,6 +159,7 @@ footer {
   background: #222222;
   border-bottom: 3px solid #e0ab0e;
 }
+
 
 .nav_section>ul {
   margin: 0;
