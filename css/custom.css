@@ -280,6 +280,10 @@ h1, h2 {
 .tile{
   background-color: #f4f4f4;
 }
+.tile_text{
+    padding: 15px;
+  }
+
 
 
 
