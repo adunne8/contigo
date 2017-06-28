@@ -50,6 +50,43 @@ td:empty{
   background-color: #222222;
 }
 
+
+
+
+/****************** NAVBAR ******************/
+
+.nav {
+  background: #222222;
+  border-bottom: 3px solid #e0ab0e;
+}
+
+
+.nav_section>ul {
+  margin: 0;
+}
+
+.nav_links {
+  padding: 0;
+}
+
+.nav_links>li {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav_links a {
+  line-height: 1.5em;
+  padding: 15px 20px;
+  color: #eee;
+  display: block;
+}
+
+.nav_links a:hover, .nav_links a.active {
+  background-color: #333333;
+}
+
+
+
 /****************** PANEL STYLING ******************/
 
 .panels {
@@ -164,38 +201,6 @@ footer {
   display: block;
 }
 
-
-/****************** NAVBAR ******************/
-
-.nav {
-  background: #222222;
-  border-bottom: 3px solid #e0ab0e;
-}
-
-
-.nav_section>ul {
-  margin: 0;
-}
-
-.nav_links {
-  padding: 0;
-}
-
-.nav_links>li {
-  display: inline-block;
-  margin: 0;
-}
-
-.nav_links a {
-  line-height: 1.5em;
-  padding: 15px 20px;
-  color: #eee;
-  display: block;
-}
-
-.nav_links a:hover {
-  background-color: #333333;
-}
 
 
 /****************** FONT STYLING ******************/
