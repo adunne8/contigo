@@ -154,8 +154,9 @@ input, textarea {
   border: 0;
 }
 
-.background-orange {
+button.button-primary {
   background-color: #e0ab0e;
+  border-color: #e0ab0e;
 }
 
 
@@ -179,11 +180,26 @@ input, textarea {
 /****************** FOOTER ******************/
 
 footer {
-  background: #222222;
+
   border-top: 3px solid #e0ab0e;
   color: #eee;
   padding: 15px 0;
+  color: #222222;
+
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+75,84f48b+100 */
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 75%, #84f48b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 75%,#84f48b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 75%,#84f48b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#84f48b',GradientType=0 ); /* IE6-9 */
+
+
+
 }
+
+
 
 
 /*Copywrite detail*/
