@@ -226,9 +226,9 @@ footer {
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+88,77e00e+89,77e00e+100 */
   background: #f9f9f9; /* Old browsers */
-  background: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 94%, #77e00e 95%, #77e00e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f9f9f9 0%,#f9f9f9 94%,#77e00e 95%,#77e00e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f9f9f9 0%,#f9f9f9 94%,#77e00e 95%,#77e00e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 90%, #77e00e 91%, #77e00e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9f9f9 0%,#f9f9f9 90%,#77e00e 91%,#77e00e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9f9f9 0%,#f9f9f9 90%,#77e00e 91%,#77e00e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#77e00e',GradientType=0 ); /* IE6-9 */
 
 }
@@ -240,6 +240,8 @@ footer {
 
 .baseline {
   text-align: center;
+  clear: both;
+  padding-top: 30px;
 }
 .baseline p{
     margin:0;
