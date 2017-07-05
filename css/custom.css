@@ -108,7 +108,7 @@ td:empty{
 
 .nav_links a {
   line-height: 1.5em;
-  padding: 15px 20px;
+  padding: 15px 3px;
   color: #222;
   display: block;
 }
@@ -226,9 +226,9 @@ footer {
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+88,77e00e+89,77e00e+100 */
   background: #f9f9f9; /* Old browsers */
-  background: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 88%, #77e00e 89%, #77e00e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f9f9f9 0%,#f9f9f9 88%,#77e00e 89%,#77e00e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f9f9f9 0%,#f9f9f9 88%,#77e00e 89%,#77e00e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 94%, #77e00e 95%, #77e00e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9f9f9 0%,#f9f9f9 94%,#77e00e 95%,#77e00e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9f9f9 0%,#f9f9f9 94%,#77e00e 95%,#77e00e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#77e00e',GradientType=0 ); /* IE6-9 */
 
 }
@@ -402,14 +402,34 @@ h1, h2, h3 {
 
 /* Larger than phablet (also point when grid becomes active) */
 
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
 
+
+  footer {
+
+    border-top: 3px solid #e0ab0e;
+    color: #eee;
+    padding: 15px 0;
+    color: #222222;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+88,77e00e+89,77e00e+100 */
+    background: #f9f9f9; /* Old browsers */
+    background: -moz-linear-gradient(top, #f9f9f9 0%, #f9f9f9 88%, #77e00e 89%, #77e00e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f9f9f9 0%,#f9f9f9 88%,#77e00e 89%,#77e00e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f9f9f9 0%,#f9f9f9 88%,#77e00e 89%,#77e00e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#77e00e',GradientType=0 ); /* IE6-9 */
+
+  }
+}
 
 /* Larger than tablet */
 
 @media (min-width: 750px) {
   .section.imagespread{
     padding: 120px;
+  }
+  .nav_links a {
+    padding: 15px 20px;
   }
 
 }
